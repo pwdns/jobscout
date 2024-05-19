@@ -1,0 +1,98 @@
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .top{
+        padding: 10px 0;
+        background-color: chartreuse;
+    }
+    .top ul li{
+        display: inline-grid;
+        color:  #ffff;
+        margin-right: 10px;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container:after{
+        content: " ";
+        display: block;
+        clear: both;
+    }
+    header{
+        content: " ";
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    header h1{
+        border: 2px solid;
+        float: left;
+        padding: 15px 0;
+        color: chartreuse;
+    }
+    header ul{
+        float: right;
+    }
+    header ul li{
+        display: inline-block;
+    }
+    header ul li a{
+        padding: 25px 70px;
+        display: inline-block;
+    }
+    header ul li a:hover{
+        background-color: rgb(95, 139, 51);
+        color: #fff;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-width: 100vh;
+    }
+    .sell-form {
+        margin-top: 20px;
+    }
+    .sell-form label {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .sell-form input, .sell-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+    .sell-form button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .sell-form button:hover {
+        background-color: #45a049;
+    }
+    footer{
+        margin-top: auto;
+        padding: 20px 0;
+        background-color: chartreuse;
+        color: #666;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0;
+        background-color: chartreuse;
+        color: #666;
+        text-align: center;
+    }

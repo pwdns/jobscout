@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container:after{
+    content: " ";
+	display: block;
+	clear: both;
+}
+header{
+    content: " ";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header h1{
+    border: 2px solid;
+    float: left;
+    padding: 15px 0;
+    color: chartreuse;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 70px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: rgb(95, 139, 51);
+    color: #fff;
+
+}
+.active{
+    background-color: rgb(120, 179, 61);
+    color: #fff;
+}
+.banner{
+    position: relative;
+    height: 70vh;
+    background-image: url('../asset/bg1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(128, 255, 0, 0.164);
+}
+.banner h2{
+    color: #fff;
+    border: 3px solid;
+    padding: 20px 25px;
+    z-index: 1;
+}
+.banner h2:hover{
+    background-color: rgb(120, 179, 61);
+}
+section h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(40, 167, 40);
+}
+.about{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.about h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+}
+.about h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    color: rgb(61, 60, 60);
+    margin-bottom: 20px;
+}
+.about p{
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+footer{
+    padding: 20px 0;
+    background-color: chartreuse;
+    color: #666;
+    text-align: center;
+}
+.table th {
+    padding-right: 290px;
+    white-space: wrap;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+  }
+  

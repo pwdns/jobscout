@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.top{
+    padding: 10px 0;
+    background-color: chartreuse;
+}
+.top ul li{
+    display: inline-grid;
+    color:  #ffff;
+    margin-right: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container:after{
+    content: " ";
+	display: block;
+	clear: both;
+}
+header{
+    content: " ";
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header h1{
+    border: 2px solid;
+    float: left;
+    padding: 15px 0;
+    color: chartreuse;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 70px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: rgb(95, 139, 51);
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(121, 163, 57);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+footer{
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: chartreuse;
+    color: #666;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: chartreuse;
+    color: #666;
+    text-align: center;
+}
